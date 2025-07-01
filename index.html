@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Graduate चायवाला</title>
+    
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+     <!--=============== CUSTOM STYLES ===============-->
+
+    <link rel="stylesheet" href="css/homepage.css"/>
+    
+    <!--=============== FLICKITY ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+     <!--=============== JQUERY ===============-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  </head>
+  <body>
+
+     <!--=============== NAVIGATION BAR ===============-->
+
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="img/chai2.png" alt="Logo"/>
+          </a>
+        </div>
+
+        <ul class="navbar-nav-left">
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+  
+            <li>
+                <a href="order.html">Order Now</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav-right">
+          <li>
+            <a href="stores.html">
+              <img src="img/marker.svg" alt="" />
+              <span>Find a store</span>
+            </a>
+          </li>
+        </ul>
+
+         <!--=============== HAMBURGER MENU ===============-->
+
+        <button type="button" class="hamburger" id="menu-btn">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+
+     <!--=============== MOBILE MENU ===============-->
+
+    <div class="mobile-menu hidden" id="menu">
+      <ul>
+        <li>
+            <a href="menu.html">Menu</a>
+        </li>
+        <li>
+            <a href="about.html">About Us</a>
+        </li>
+        <li>
+            <a href="order.html">Order Now</a>
+        </li>
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+        <div>
+          <a href="stores.html">
+            <img src="img/marker.svg" alt="" />
+            <span>Find a store</span>
+          </a>
+      </div>
+    </div>
+
+     <!--=============== BOX A ===============-->
+
+    <section class="box box-a bg-secondary text-center py-md">
+      <div class="box-inner">
+        <h2 class="text-xl">Graduateचायवाला</h2>
+        <p class="text-md">
+           यहाँ चाय नहीं सुकून मिलता है
+        </p>
+      </div>
+    </section>
+
+      <!--=============== IMAGE CAROUSEL ===============-->
+     <div class="carousel" data-flickity='{"autoPlay": "true", "cellAlign": "left"}'>
+      <div class="cell" style="background-image: url(img/dukan.jpg)"></div>
+      <div class="cell" style="background-image: url(img/chaip.png)"></div>
+      <div class="cell" style="background-image: url(img/mok.png)"></div>
+      <div class="cell" style="background-image: url(img/mok2.png)"></div>
+      <!-- <div class="cell" style="background-image: url(img/carousel-5.jpeg)"></div>
+      <div class="cell" style="background-image: url(img/taro.jpeg)"></div> -->
+    </div>
+
+     <!--=============== ALL ABOUT US ===============-->
+
+    <section class="col-section">
+      <h2 class="title">All About Us</h2>
+      <div class="border"> </div>
+      <div class="col-container">
+          <div class="col-box">
+              <div class="col-img">
+                  <img src="img/marker.svg" alt="">
+              </div>
+              <div class="col-text">
+                  <a href="#" class="col-title">Find a store</a>
+              </div>
+          </div>
+          <div class="col-box">
+              <div class="col-img">
+                  <img src="img/chai.png" alt="">
+              </div>
+              <div class="col-text">
+                  <a href="menu.html" class="col-title">Our Menu</a>
+              </div>
+          </div>
+          <div class="col-box">
+              <div class="col-img">
+                  <img src="img/story.jpeg" alt="">
+              </div>
+              <div class="col-text">
+                  <a href="about.html" class="col-title">Our Story</a>
+              </div>
+          </div>
+      </div>
+  </section>
+ 
+     <!--=============== BOX B - CHOCOLATE ===============-->
+
+    <h2 class="title">Featured Drinks</h2>
+    <div class="border"> </div>
+    <section class="box box-b bg-secondary grid-col-2">
+      <img src="img/chaip.png" alt="chocolate bubble tea"/>
+      <div class="box-text">
+        <h2 class="text-xl">Kulladh Chai</h2>
+        <a href="order.html" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+
+     <!--=============== BOX C - CLASSIC ===============-->
+
+    <section class="box box-c bg-secondary grid-col-2 grid-reversed">
+      <img src="img/mok.png" alt="classic bubble tea" />
+      <div class="box-text">
+        <h2 class="text-xl">Moctails</h2>
+       
+        <a href="order.html" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+
+     <!--=============== BOX D - BROWN SUGAR ===============-->
+
+    <section class="box box-d bg-secondary grid-col-2">
+      <img src="img/brownsugar.jpeg" alt="brown sugar bubble tea"/>
+      <div class="box-text">
+        <h2 class="text-xl">Coffee</h2>
+        <p class="text-md">
+          Comming soon
+      </p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+
+     <!--=============== REVIEWS ===============-->
+
+    <section class="reviews">
+      <div class="reviews-inner">
+        <h2 class="title">Reviews</h2>
+        <div class="border"> </div>
+        <div class="row">
+          <div class="col">
+            <div class="review">
+              <img src="img/vivek.png" alt="Michelle's Headshot">
+              <div class="name">Vivek</div>
+              <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+              <p>
+               good
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="review">
+              <img src="img/ankit.png" alt="Darragh's Headshot">
+              <div class="name">ankit</div>
+              <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+              <p> very good
+                 </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="review">
+              <img src="img/shakti.jpg" alt="Aishah's Headshot">
+              <div class="name">Shakti</div>
+              <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+              <p>Hmm
+                 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== FOOTER ===============-->
+
+    <section class="footer">
+      <div class="footer-box">
+          <h2>Graduateचायवाला</h2>
+          <p>South Ramna Road in front of Champaran meat house Aditya inn</p>
+          <div class="social">
+              <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+              <a href="https://twitter.com/"><i class='bx bxl-twitter'></i></a>
+              <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+            
+          </div>
+      </div>
+      <div class="footer-box">
+          <h3>Support</h3>
+          <ul>
+            
+            <li><a href="contact.html">Contact</a></li>
+            
+          </ul>
+      </div>
+      <div class="footer-box">
+          <h3>View Guides</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            
+           
+            <li><a href="stores.html">Our Stores</a></li>
+          </ul>
+      </div>
+      <div class="footer-box">
+          <h3>Contact</h3>
+          <div class="contact">
+              <span><i class='bx bxs-phone' ></i>mo</span>
+              <span><i class='bx bxs-envelope' ></i>gmail.com</span>
+          </div>
+      </div>
+  </section>
+
+
+    <!--=============== CUSTOM JS ===============-->
+
+    <script src="js/homepage.js"></script>
+
+     <!--=============== FLICKITY ===============-->
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+   <script>
+        $('.main-carousel').flickity({
+            cellAlign: 'left',
+            wrapAround: true,
+            freeScroll: true
+          });
+   </script>
+    
+  </body>
+</html>
